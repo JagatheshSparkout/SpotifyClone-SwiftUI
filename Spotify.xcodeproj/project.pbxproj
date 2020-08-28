@@ -14,6 +14,7 @@
 		9A76E8F424E9512100EA85BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A76E8F324E9512100EA85BA /* Preview Assets.xcassets */; };
 		9A76E8F724E9512100EA85BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76E8F524E9512100EA85BA /* LaunchScreen.storyboard */; };
 		9A76E90024E9556800EA85BA /* AuthContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E8FF24E9556800EA85BA /* AuthContentView.swift */; };
+		9A87B26624F3639200BB8CD4 /* MusicCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A87B26524F3639200BB8CD4 /* MusicCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9A76E8F624E9512100EA85BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A76E8F824E9512100EA85BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A76E8FF24E9556800EA85BA /* AuthContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContentView.swift; sourceTree = "<group>"; };
+		9A87B26524F3639200BB8CD4 /* MusicCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9A76E8EA24E9511F00EA85BA /* AppDelegate.swift */,
 				9A76E8EC24E9511F00EA85BA /* SceneDelegate.swift */,
 				9A76E8FE24E954EE00EA85BA /* Authentication */,
+				9A87B26424F3636000BB8CD4 /* MusicCategory */,
 				9A76E8EE24E9511F00EA85BA /* ContentView.swift */,
 				9A76E8F024E9512100EA85BA /* Assets.xcassets */,
 				9A76E8F524E9512100EA85BA /* LaunchScreen.storyboard */,
@@ -84,6 +87,14 @@
 				9A76E8FF24E9556800EA85BA /* AuthContentView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9A87B26424F3636000BB8CD4 /* MusicCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9A87B26524F3639200BB8CD4 /* MusicCategoryView.swift */,
+			);
+			path = MusicCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				9A76E90024E9556800EA85BA /* AuthContentView.swift in Sources */,
 				9A76E8EB24E9511F00EA85BA /* AppDelegate.swift in Sources */,
 				9A76E8ED24E9511F00EA85BA /* SceneDelegate.swift in Sources */,
+				9A87B26624F3639200BB8CD4 /* MusicCategoryView.swift in Sources */,
 				9A76E8EF24E9511F00EA85BA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
